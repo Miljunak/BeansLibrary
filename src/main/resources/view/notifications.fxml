@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<StackPane prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+           stylesheets="@../css/styles.css"
+           fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.NotificationsController">
+  <children>
+    <VBox alignment="BOTTOM_CENTER" spacing="5.0">
+      <children>
+        <Label fx:id="usernameLabel" text="Notifications">
+          <font>
+            <Font size="30.0"/>
+          </font>
+        </Label>
+        <Separator prefWidth="200.0"/>
+        <HBox alignment="TOP_CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+          <children>
+            <VBox spacing="10.0">
+              <children>
+                <HBox alignment="BASELINE_LEFT" spacing="10.0">
+                  <children>
+                    <Button fx:id="refreshButton" mnemonicParsing="false" text="⟳">
+                      <font>
+                        <Font size="12.0"/>
+                      </font>
+                      <HBox.margin>
+                        <Insets bottom="-2.0" left="-2.0" right="-2.0" top="-2.0"/>
+                      </HBox.margin>
+                    </Button>
+                    <TextField fx:id="filterNotificationsTextField" alignment="TOP_LEFT" onAction="#filterNotifications"
+                               promptText="filter notifications"
+                               style="-fx-background-color: transparent; -fx-border-width: 1; -fx-border-color: gray; -fx-text-fill: gray;"
+                               HBox.hgrow="ALWAYS">
+                      <font>
+                        <Font size="15.0"/>
+                      </font>
+                    </TextField>
+                    <CheckBox fx:id="hideReadCheckBox" alignment="TOP_LEFT" mnemonicParsing="false"
+                              onAction="#toggleNotificationsVisibility" text="Hide read"/>
+                  </children>
+                  <padding>
+                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+                  </padding>
+                </HBox>
+                <TableView fx:id="notificationsTable" fixedCellSize="27.0" prefWidth="700.0" VBox.vgrow="ALWAYS">
+                  <columns>
+                    <TableColumn fx:id="unreadColumn" editable="false" maxWidth="25.0" minWidth="25.0"
+                                 prefWidth="25.0"/>
+                    <TableColumn fx:id="notificationTypeColumn" editable="false" maxWidth="200.0" prefWidth="50.0"
+                                 text="Type"/>
+                    <TableColumn fx:id="senderColumn" editable="false" maxWidth="300.0" minWidth="20.0" prefWidth="75.0"
+                                 text="From"/>
+                    <TableColumn fx:id="notificationTitleColumn" editable="false" maxWidth="400.0" minWidth="50.0"
+                                 prefWidth="200.0" text="Title"/>
+                    <TableColumn fx:id="sendDateColumn" editable="false" maxWidth="350.0" prefWidth="75.0"
+                                 sortType="DESCENDING" text="Date"/>
+                  </columns>
+                  <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                  </columnResizePolicy>
+                </TableView>
+              </children>
+            </VBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxWidth="600.0">
+              <VBox spacing="20.0" style="-fx-border-radius: 50;">
+                <children>
+                  <StackPane prefHeight="40.0">
+                    <children>
+                      <Label fx:id="shownNotificationTitleLabel" text="Notification Title"
+                             StackPane.alignment="TOP_LEFT">
+                        <font>
+                          <Font size="15.0"/>
+                        </font>
+                        <StackPane.margin>
+                          <Insets/>
+                        </StackPane.margin>
+                      </Label>
+                      <Label fx:id="shownNotificationTypeLabel" layoutX="133.0" layoutY="10.0" text="Notification Type"
+                             StackPane.alignment="BOTTOM_LEFT">
+                        <StackPane.margin>
+                          <Insets/>
+                        </StackPane.margin>
+                      </Label>
+                      <Label fx:id="shownNotificationDateLabel" layoutX="278.0" layoutY="10.0" text="21:37 06.04.2005"
+                             StackPane.alignment="BOTTOM_RIGHT"/>
+                    </children>
+                  </StackPane>
+                  <TextArea fx:id="shownNotificationMessageLabel" editable="false"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus interdum posuere lorem ipsum. Urna cursus eget nunc scelerisque. Scelerisque varius morbi enim nunc faucibus a pellentesque. Dictumst quisque sagittis purus sit amet. Pellentesque elit eget gravida cum sociis natoque. Lorem mollis aliquam ut porttitor leo a. Feugiat pretium nibh ipsum consequat nisl vel. Etiam dignissim diam quis enim lobortis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Volutpat ac tincidunt vitae semper quis lectus nulla. Tristique senectus et netus et malesuada fames ac turpis. Adipiscing elit duis tristique sollicitudin nibh. Sit amet justo donec enim. Elit pellentesque habitant morbi tristique. Sed adipiscing diam donec adipiscing tristique risus nec. Id nibh tortor id aliquet lectus proin nibh. Nunc sed augue lacus viverra. Parturient montes nascetur ridiculus mus mauris vitae ultricies. Interdum velit euismod in pellentesque."
+                            wrapText="true" VBox.vgrow="ALWAYS"/>
+                </children>
+              </VBox>
+              <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+              </padding>
+            </ScrollPane>
+          </children>
+          <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+          </padding>
+        </HBox>
+      </children>
+      <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+      </padding>
+    </VBox>
+  </children>
+  <padding>
+    <Insets bottom="30.0" left="30.0" right="30.0" top="30.0"/>
+  </padding>
+</StackPane>

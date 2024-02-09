@@ -1,0 +1,1324 @@
+{
+  "books": [
+    {
+      "title": "Wiedźmin - Ostatnie życzenie",
+      "authors": [
+        {
+          "name": "Andrzej Sapkowski",
+          "birthDate": "1948-06-21"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 231,
+      "language": "POLISH",
+      "isbn": "943-1-43242-808-4",
+      "description": "Book",
+      "imageUrl": "https://m.media-amazon.com/images/I/51SCbNuDs5L._SY445_SX342_.jpg"
+    },
+    {
+      "title": "Wiedźmin - Krew Elfów",
+      "authors": [
+        {
+          "name": "Andrzej Sapkowski",
+          "birthDate": "1948-06-21"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 451,
+      "language": "POLISH",
+      "isbn": "943-1-43242-808-12",
+      "description": "Book",
+      "imageUrl": "https://bonito.pl/zdjecia/5/677b3fd4-wiedzmin-krew-elfow.jpg"
+    },
+    {
+      "title": "Wiedźmin - Chrzest Ognia",
+      "authors": [
+        {
+          "name": "Andrzej Sapkowski",
+          "birthDate": "1948-06-21"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 194,
+      "language": "POLISH",
+      "isbn": "943-1-43242-898-4",
+      "description": "Book",
+      "imageUrl": "https://s.lubimyczytac.pl/upload/books/240000/240524/490978-352x500.jpg"
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "authors": [
+        {
+          "name": "J.K. Rowling",
+          "birthDate": "1978-11-13"
+        }
+      ],
+      "category": "FANTASY",
+      "pagesCount": 320,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-791-3",
+      "description": "The first book in the Harry Potter series",
+      "imageUrl": null
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "authors": [
+        {
+          "name": "F. Scott Fitzgerald",
+          "birthDate": "1993-05-14"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 256,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-792-0",
+      "description": "A famous detective novel",
+      "imageUrl": null
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1963-05-14"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 336,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-793-7",
+      "description": "A classic American novel",
+      "imageUrl": null
+    },
+    {
+      "title": "The Great Gatsby",
+      "authors": [
+        {
+          "name": "George Orwell",
+          "birthDate": "1923-01-13"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 200,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-794-4",
+      "description": "A novel about the American Dream",
+      "imageUrl": null
+    },
+    {
+      "title": "1984",
+      "authors": [
+        {
+          "name": "Haruki Murakami",
+          "birthDate": "1978-02-05"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 328,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-795-1",
+      "description": "A dystopian novel",
+      "imageUrl": null
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "authors": [
+        {
+          "name": "J.D. Salinger",
+          "birthDate": "1919-01-01"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 224,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-796-8",
+      "description": "A classic coming-of-age novel",
+      "imageUrl": null
+    },
+    {
+      "title": "Pride and Prejudice",
+      "authors": [
+        {
+          "name": "Jane Austen",
+          "birthDate": "1775-12-16"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 432,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-797-5",
+      "description": "A timeless romantic novel",
+      "imageUrl": null
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "authors": [
+        {
+          "name": "Gabriel Garcia Marquez",
+          "birthDate": "1927-03-06"
+        }
+      ],
+      "category": "FANTASY",
+      "pagesCount": 417,
+      "language": "SPANISH",
+      "isbn": "978-1-23456-798-2",
+      "description": "A masterpiece of magical realism",
+      "imageUrl": null
+    },
+    {
+      "title": "The Hobbit",
+      "authors": [
+        {
+          "name": "J.R.R. Tolkien",
+          "birthDate": "1892-01-03"
+        }
+      ],
+      "category": "FANTASY",
+      "pagesCount": 310,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-799-9",
+      "description": "An epic fantasy adventure",
+      "imageUrl": null
+    },
+    {
+      "title": "The Da Vinci Code",
+      "authors": [
+        {
+          "name": "Dan Brown",
+          "birthDate": "1964-06-22"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 454,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-800-2",
+      "description": "A gripping mystery novel",
+      "imageUrl": null
+    },
+    {
+      "title": "The Alchemist",
+      "authors": [
+        {
+          "name": "Paulo Coelho",
+          "birthDate": "1947-08-24"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 197,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-802-6",
+      "description": "A philosophical novel about pursuing dreams",
+      "imageUrl": null
+    },
+    {
+      "title": "Les Misérables",
+      "authors": [
+        {
+          "name": "Victor Hugo",
+          "birthDate": "1802-02-26"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 1463,
+      "language": "FRENCH",
+      "isbn": "978-1-23456-803-3",
+      "description": "A classic French historical novel",
+      "imageUrl": null
+    },
+    {
+      "title": "Crime and Punishment",
+      "authors": [
+        {
+          "name": "Fyodor Dostoevsky",
+          "birthDate": "1821-11-11"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 551,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-804-0",
+      "description": "A psychological novel exploring guilt and redemption",
+      "imageUrl": null
+    },
+    {
+      "title": "Brave New World",
+      "authors": [
+        {
+          "name": "Aldous Huxley",
+          "birthDate": "1894-07-26"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 311,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-805-7",
+      "description": "A dystopian novel depicting a future society",
+      "imageUrl": null
+    },
+    {
+      "title": "The Hobbit",
+      "authors": [
+        {
+          "name": "J.R.R. Tolkien",
+          "birthDate": "1892-01-03"
+        }
+      ],
+      "category": "FANTASY",
+      "pagesCount": 310,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-806-4",
+      "description": "An epic fantasy adventure",
+      "imageUrl": null
+    },
+    {
+      "title": "Dracula",
+      "authors": [
+        {
+          "name": "Bram Stoker",
+          "birthDate": "1847-11-08"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 418,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-807-1",
+      "description": "A classic Gothic horror novel",
+      "imageUrl": null
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "authors": [
+        {
+          "name": "Stieg Larsson",
+          "birthDate": "1954-08-15"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 465,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-808-8",
+      "description": "A gripping Scandinavian crime thriller",
+      "imageUrl": null
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "authors": [
+        {
+          "name": "Fyodor Dostoevsky",
+          "birthDate": "1821-11-11"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 824,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-809-5",
+      "description": "A philosophical novel exploring moral and spiritual issues",
+      "imageUrl": null
+    },
+    {
+      "title": "Anna Karenina",
+      "authors": [
+        {
+          "name": "Leo Tolstoy",
+          "birthDate": "1828-09-09"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 864,
+      "language": "RUSSIAN",
+      "isbn": "978-1-23456-810-1",
+      "description": "A classic Russian novel portraying the tragic love affair of Anna Karenina",
+      "imageUrl": null
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "authors": [
+        {
+          "name": "Arthur Conan Doyle",
+          "birthDate": "1859-05-22"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 195,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-811-8",
+      "description": "A classic detective novel featuring Sherlock Holmes",
+      "imageUrl": null
+    },
+    {
+      "title": "Dune",
+      "authors": [
+        {
+          "name": "Frank Herbert",
+          "birthDate": "1920-10-08"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 688,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-812-5",
+      "description": "A science fiction epic set in a distant future",
+      "imageUrl": null
+    },
+    {
+      "title": "The Chronicles of Narnia",
+      "authors": [
+        {
+          "name": "C.S. Lewis",
+          "birthDate": "1898-11-29"
+        }
+      ],
+      "category": "FANTASY",
+      "pagesCount": 767,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-813-2",
+      "description": "A classic fantasy series for children and adults",
+      "imageUrl": null
+    },
+    {
+      "title": "Frankenstein",
+      "authors": [
+        {
+          "name": "Mary Shelley",
+          "birthDate": "1797-08-30"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 280,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-814-9",
+      "description": "A Gothic horror novel about the consequences of playing God",
+      "imageUrl": null
+    },
+    {
+      "title": "Gone Girl",
+      "authors": [
+        {
+          "name": "Gillian Flynn",
+          "birthDate": "1971-02-24"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 419,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-815-6",
+      "description": "A psychological thriller exploring the dynamics of a marriage",
+      "imageUrl": null
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "authors": [
+        {
+          "name": "Yuval Noah Harari",
+          "birthDate": "1976-02-24"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 464,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-816-3",
+      "description": "An overview of the history and impact of Homo sapiens",
+      "imageUrl": null
+    },
+    {
+      "title": "Steve Jobs",
+      "authors": [
+        {
+          "name": "Walter Isaacson",
+          "birthDate": "1952-05-20"
+        }
+      ],
+      "category": "BIOGRAPHY",
+      "pagesCount": 630,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-817-0",
+      "description": "A biography of the co-founder of Apple Inc.",
+      "imageUrl": null
+    },
+    {
+      "title": "The Shadow of the Wind",
+      "authors": [
+        {
+          "name": "Carlos Ruiz Zafón",
+          "birthDate": "1964-09-25"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 487,
+      "language": "SPANISH",
+      "isbn": "978-1-23456-818-7",
+      "description": "A mystery novel set in post-war Barcelona",
+      "imageUrl": null
+    },
+    {
+      "title": "Sense and Sensibility",
+      "authors": [
+        {
+          "name": "Jane Austen",
+          "birthDate": "1775-12-16"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 352,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-820-0",
+      "description": "A classic novel exploring the romantic lives of two sisters",
+      "imageUrl": null
+    },
+    {
+      "title": "Jurassic Park",
+      "authors": [
+        {
+          "name": "Michael Crichton",
+          "birthDate": "1942-10-23"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 448,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-821-7",
+      "description": "A thrilling science fiction novel about dinosaurs brought back to life",
+      "imageUrl": null
+    },
+    {
+      "title": "The Sun Also Rises",
+      "authors": [
+        {
+          "name": "Ernest Hemingway",
+          "birthDate": "1899-07-21"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 251,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-822-4",
+      "description": "A novel capturing the disillusionment of the post-World War I generation",
+      "imageUrl": null
+    },
+    {
+      "title": "The Three Musketeers",
+      "authors": [
+        {
+          "name": "Alexandre Dumas",
+          "birthDate": "1802-07-24"
+        }
+      ],
+      "category": "ADVENTURE",
+      "pagesCount": 704,
+      "language": "FRENCH",
+      "isbn": "978-1-23456-823-1",
+      "description": "An adventure novel set in 17th-century France",
+      "imageUrl": null
+    },
+    {
+      "title": "Einstein: His Life and Universe",
+      "authors": [
+        {
+          "name": "Walter Isaacson",
+          "birthDate": "1952-05-20"
+        }
+      ],
+      "category": "BIOGRAPHY",
+      "pagesCount": 675,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-824-8",
+      "description": "A biography of the renowned physicist Albert Einstein",
+      "imageUrl": null
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "authors": [
+        {
+          "name": "Douglas Adams",
+          "birthDate": "1952-03-11"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 208,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-825-5",
+      "description": "A humorous science fiction series about an unwitting interstellar hitchhiker",
+      "imageUrl": null
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "authors": [
+        {
+          "name": "Ken Kesey",
+          "birthDate": "1935-09-17"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 325,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-826-2",
+      "description": "A novel set in a mental institution, exploring the conflict between individuality and conformity",
+      "imageUrl": null
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "authors": [
+        {
+          "name": "Alexandre Dumas",
+          "birthDate": "1802-07-24"
+        }
+      ],
+      "category": "ADVENTURE",
+      "pagesCount": 1276,
+      "language": "FRENCH",
+      "isbn": "978-1-23456-827-9",
+      "description": "An adventure novel of betrayal, revenge, and redemption",
+      "imageUrl": null
+    },
+    {
+      "title": "The Girl on the Train",
+      "authors": [
+        {
+          "name": "Paula Hawkins",
+          "birthDate": "1972-08-26"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 336,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-828-6",
+      "description": "A psychological thriller centered around the lives of three women",
+      "imageUrl": null
+    },
+    {
+      "title": "War and Peace",
+      "authors": [
+        {
+          "name": "Leo Tolstoy",
+          "birthDate": "1828-09-09"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 1225,
+      "language": "RUSSIAN",
+      "isbn": "978-1-23456-829-3",
+      "description": "A monumental novel depicting the French invasion of Russia and its impact on society",
+      "imageUrl": null
+    },
+    {
+      "title": "Pride and Prejudice",
+      "authors": [
+        {
+          "name": "Jane Austen",
+          "birthDate": "1775-12-16"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 432,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-830-9",
+      "description": "A timeless romantic novel exploring love and social status",
+      "imageUrl": null
+    },
+    {
+      "title": "Neuromancer",
+      "authors": [
+        {
+          "name": "William Gibson",
+          "birthDate": "1948-03-17"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 271,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-831-6",
+      "description": "A pioneering cyberpunk novel exploring a dystopian future",
+      "imageUrl": null
+    },
+    {
+      "title": "Great Expectations",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 505,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-832-3",
+      "description": "A coming-of-age novel following the life of an orphan named Pip",
+      "imageUrl": null
+    },
+    {
+      "title": "The Shining",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 447,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-833-0",
+      "description": "A psychological horror novel set in an isolated hotel",
+      "imageUrl": null
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "authors": [
+        {
+          "name": "Daniel Kahneman",
+          "birthDate": "1934-03-05"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 499,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-834-7",
+      "description": "A Nobel Prize-winning psychologist explores the two systems of thought that drive decision-making",
+      "imageUrl": null
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "authors": [
+        {
+          "name": "Oscar Wilde",
+          "birthDate": "1854-10-16"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 254,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-835-4",
+      "description": "A Gothic novel examining the consequences of a life of excess and hedonism",
+      "imageUrl": null
+    },
+    {
+      "title": "Into the Wild",
+      "authors": [
+        {
+          "name": "Jon Krakauer",
+          "birthDate": "1954-04-12"
+        }
+      ],
+      "category": "ADVENTURE",
+      "pagesCount": 207,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-836-1",
+      "description": "A non-fiction book about a young man's journey into the Alaskan wilderness",
+      "imageUrl": null
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "authors": [
+        {
+          "name": "Ernest Hemingway",
+          "birthDate": "1899-07-21"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 127,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-837-8",
+      "description": "A classic novella about an aging Cuban fisherman and his battle with a giant marlin",
+      "imageUrl": null
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "authors": [
+        {
+          "name": "Anne Frank",
+          "birthDate": "1929-06-12"
+        }
+      ],
+      "category": "BIOGRAPHY",
+      "pagesCount": 283,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-838-5",
+      "description": "The diary of Anne Frank, a Jewish girl in hiding during the Holocaust",
+      "imageUrl": null
+    },
+    {
+      "title": "Crime and Punishment",
+      "authors": [
+        {
+          "name": "Fyodor Dostoevsky",
+          "birthDate": "1821-11-11"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 545,
+      "language": "RUSSIAN",
+      "isbn": "978-1-23456-839-2",
+      "description": "A psychological novel exploring the moral consequences of a crime",
+      "imageUrl": null
+    },
+    {
+      "title": "Emma",
+      "authors": [
+        {
+          "name": "Jane Austen",
+          "birthDate": "1775-12-16"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 474,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-840-8",
+      "description": "A classic novel about the perils of misconstrued romance",
+      "imageUrl": null
+    },
+    {
+      "title": "Brave New World",
+      "authors": [
+        {
+          "name": "Aldous Huxley",
+          "birthDate": "1894-07-26"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 311,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-841-5",
+      "description": "A dystopian novel exploring a future society based on technology and conditioning",
+      "imageUrl": null
+    },
+    {
+      "title": "Jane Eyre",
+      "authors": [
+        {
+          "name": "Charlotte Brontë",
+          "birthDate": "1816-04-21"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 532,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-842-2",
+      "description": "A classic novel depicting the struggles of an orphaned governess",
+      "imageUrl": null
+    },
+    {
+      "title": "The Martian",
+      "authors": [
+        {
+          "name": "Andy Weir",
+          "birthDate": "1972-06-16"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 369,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-843-9",
+      "description": "A science fiction novel about an astronaut stranded on Mars",
+      "imageUrl": null
+    },
+    {
+      "title": "The Tell-Tale Heart",
+      "authors": [
+        {
+          "name": "Edgar Allan Poe",
+          "birthDate": "1809-01-19"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 21,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-844-6",
+      "description": "A short story of murder and madness",
+      "imageUrl": null
+    },
+    {
+      "title": "Educated",
+      "authors": [
+        {
+          "name": "Tara Westover",
+          "birthDate": "1986-09-27"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 334,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-845-3",
+      "description": "A memoir of a woman who grows up in a strict and abusive household but eventually escapes to learn about the world",
+      "imageUrl": null
+    },
+    {
+      "title": "The Road",
+      "authors": [
+        {
+          "name": "Cormac McCarthy",
+          "birthDate": "1933-07-20"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 287,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-847-7",
+      "description": "A post-apocalyptic novel following a father and son's journey through a desolate landscape",
+      "imageUrl": null
+    },
+    {
+      "title": "The Alchemist",
+      "authors": [
+        {
+          "name": "Paulo Coelho",
+          "birthDate": "1947-08-24"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 197,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-848-4",
+      "description": "A philosophical novel about a shepherd's quest for treasure",
+      "imageUrl": null
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "authors": [
+        {
+          "name": "Stieg Larsson",
+          "birthDate": "1954-08-15"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 672,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-849-1",
+      "description": "A mystery thriller featuring a journalist and a computer hacker",
+      "imageUrl": null
+    },
+    {
+      "title": "Anna Karenina",
+      "authors": [
+        {
+          "name": "Leo Tolstoy",
+          "birthDate": "1828-09-09"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 864,
+      "language": "RUSSIAN",
+      "isbn": "978-1-23456-850-7",
+      "description": "A tragic novel exploring the consequences of infidelity in 19th-century Russian society",
+      "imageUrl": null
+    },
+    {
+      "title": "The Hunchback of Notre-Dame",
+      "authors": [
+        {
+          "name": "Victor Hugo",
+          "birthDate": "1802-02-26"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 940,
+      "language": "FRENCH",
+      "isbn": "978-1-23456-851-4",
+      "description": "A historical novel set in medieval Paris, featuring the hunchback Quasimodo",
+      "imageUrl": null
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "authors": [
+        {
+          "name": "Yuval Noah Harari",
+          "birthDate": "1976-02-24"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 443,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-852-1",
+      "description": "A history book exploring the evolution of Homo sapiens",
+      "imageUrl": null
+    },
+    {
+      "title": "The Adventures of Sherlock Holmes",
+      "authors": [
+        {
+          "name": "Arthur Conan Doyle",
+          "birthDate": "1859-05-22"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 307,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-853-8",
+      "description": "A collection of short stories featuring the famous detective Sherlock Holmes",
+      "imageUrl": null
+    },
+    {
+      "title": "Dune",
+      "authors": [
+        {
+          "name": "Frank Herbert",
+          "birthDate": "1920-10-08"
+        }
+      ],
+      "category": "SCIENCE_FICTION",
+      "pagesCount": 604,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-854-5",
+      "description": "A science fiction novel set in a distant future amidst interstellar politics and ecological disaster",
+      "imageUrl": null
+    },
+    {
+      "title": "Frankenstein",
+      "authors": [
+        {
+          "name": "Mary Shelley",
+          "birthDate": "1797-08-30"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 280,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-855-2",
+      "description": "A Gothic horror novel about a scientist who creates a creature through a scientific experiment",
+      "imageUrl": null
+    },
+    {
+      "title": "The Prince",
+      "authors": [
+        {
+          "name": "Niccolò Machiavelli",
+          "birthDate": "1469-05-03"
+        }
+      ],
+      "category": "NON_FICTION",
+      "pagesCount": 140,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-856-9",
+      "description": "A political treatise offering advice on leadership and governance",
+      "imageUrl": null
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "authors": [
+        {
+          "name": "J.D. Salinger",
+          "birthDate": "1919-01-01"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 224,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-857-6",
+      "description": "A novel exploring the experiences of a young man in New York City",
+      "imageUrl": null
+    },
+    {
+      "title": "The Stand",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 1153,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-859-0",
+      "description": "A post-apocalyptic horror novel depicting the struggle between good and evil",
+      "imageUrl": null
+    },
+    {
+      "title": "Les Misérables",
+      "authors": [
+        {
+          "name": "Victor Hugo",
+          "birthDate": "1802-02-26"
+        }
+      ],
+      "category": "ROMANCE",
+      "pagesCount": 1463,
+      "language": "FRENCH",
+      "isbn": "978-1-23456-860-6",
+      "description": "A historical novel set against the backdrop of the June Rebellion in Paris",
+      "imageUrl": null
+    },
+    {
+      "title": "It",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 1138,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-862-0",
+      "description": "A horror novel featuring a shape-shifting entity terrorizing a small town",
+      "imageUrl": null
+    },
+    {
+      "title": "Carrie",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 199,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-863-7",
+      "description": "A supernatural horror novel about a high school girl with telekinetic powers",
+      "imageUrl": null
+    },
+    {
+      "title": "Pet Sematary",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "HORROR",
+      "pagesCount": 562,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-864-4",
+      "description": "A horror novel exploring the dark consequences of bringing the dead back to life",
+      "imageUrl": null
+    },
+    {
+      "title": "Misery",
+      "authors": [
+        {
+          "name": "Stephen King",
+          "birthDate": "1947-09-21"
+        }
+      ],
+      "category": "THRILLER",
+      "pagesCount": 310,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-865-1",
+      "description": "A psychological thriller about an author held captive by an obsessed fan",
+      "imageUrl": null
+    },
+    {
+      "title": "Murder on the Orient Express",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1890-09-15"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 256,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-866-8",
+      "description": "A famous detective novel featuring Hercule Poirot investigating a murder on a train",
+      "imageUrl": null
+    },
+    {
+      "title": "Death on the Nile",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1890-09-15"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 352,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-867-5",
+      "description": "A classic detective novel set aboard a river cruise featuring Hercule Poirot",
+      "imageUrl": null
+    },
+    {
+      "title": "And Then There Were None",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1890-09-15"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 247,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-868-2",
+      "description": "A mystery novel where characters are invited to an island and one by one they are killed",
+      "imageUrl": null
+    },
+    {
+      "title": "The Murder of Roger Ackroyd",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1890-09-15"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 288,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-869-9",
+      "description": "A classic detective novel featuring Hercule Poirot solving the murder of Roger Ackroyd",
+      "imageUrl": null
+    },
+    {
+      "title": "The ABC Murders",
+      "authors": [
+        {
+          "name": "Agatha Christie",
+          "birthDate": "1890-09-15"
+        }
+      ],
+      "category": "MYSTERY",
+      "pagesCount": 256,
+      "language": "ENGLISH",
+      "isbn": "978-1-23456-870-5",
+      "description": "A mystery novel where Hercule Poirot investigates a series of alphabetically arranged murders",
+      "imageUrl": null
+    },
+    {
+      "title": "A Tale of Two Cities",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 352,
+      "language": "ENGLISH",
+      "isbn": "978-1-40830-002-1",
+      "description": "Historical novel set in London and Paris before and during the French Revolution.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780451530578"
+    },
+    {
+      "title": "Great Expectations",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 544,
+      "language": "ENGLISH",
+      "isbn": "978-1-59308-181-3",
+      "description": "Coming-of-age novel portraying the growth and personal development of an orphan named Pip.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780141439563"
+    },
+    {
+      "title": "David Copperfield",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 1024,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-024-4",
+      "description": "Autobiographical novel that follows the life of David Copperfield.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780140439441"
+    },
+    {
+      "title": "Oliver Twist",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 496,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-088-6",
+      "description": "Orphan Oliver Twist navigates the perils of Victorian London.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780553211023"
+    },
+    {
+      "title": "Bleak House",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 1024,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-087-9",
+      "description": "Complex narrative with a large cast of characters, focusing on the injustices of the legal system.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780141439723"
+    },
+    {
+      "title": "Little Dorrit",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 912,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-126-5",
+      "description": "Satirical novel highlighting the shortcomings of both government and society.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780451530066"
+    },
+    {
+      "title": "Nicholas Nickleby",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 928,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-350-4",
+      "description": "The life and adventures of Nicholas Nickleby, a young man making his way in the world.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780451530455"
+    },
+    {
+      "title": "Hard Times",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 320,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-041-1",
+      "description": "Novel exploring the social and economic pressures of the time.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780141439679"
+    },
+    {
+      "title": "Our Mutual Friend",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 880,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-096-1",
+      "description": "A satiric masterpiece about money, materialism, and the corrosive power of wealth.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780141439679"
+    },
+    {
+      "title": "Martin Chuzzlewit",
+      "authors": [
+        {
+          "name": "Charles Dickens",
+          "birthDate": "1812-02-07"
+        }
+      ],
+      "category": "FICTION",
+      "pagesCount": 832,
+      "language": "ENGLISH",
+      "isbn": "978-1-85326-255-2",
+      "description": "The novel follows Martin Chuzzlewit's journey to self-discovery.",
+      "imageUrl": "https://images.penguinrandomhouse.com/cover/9780141439716"
+    }
+  ]
+}

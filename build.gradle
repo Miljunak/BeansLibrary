@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'org.springframework.boot' version '3.2.0'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'io.freefair.lombok' version '8.4'
+
+}
+
+group = 'pl.edu.agh.to.kolektyw_glazurniczy'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.1.2'
+    implementation 'org.springframework.boot:spring-boot-starter-security:3.1.2'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:3.1.2'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'com.google.guava:guava:31.1-jre'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.1'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.16.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.16.1'
+
+    implementation 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+
+//  databases
+    runtimeOnly 'com.h2database:h2-mvstore:2.1.210'
+    runtimeOnly 'mysql:mysql-connector-java:8.0.33'
+
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+javafx {
+    version = '17'
+    modules = ['javafx.base', 'javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.media', 'javafx.swing', 'javafx.web']
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

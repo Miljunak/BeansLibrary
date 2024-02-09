@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane fx:id="mainContentPane" prefHeight="900.0" prefWidth="1400.0" stylesheets="@../css/styles.css"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.MainController">
+  <left>
+    <VBox prefWidth="300.0" spacing="25" style="-fx-background-color: linear-gradient(to bottom, #66ccff, #3366cc);">
+      <children>
+        <ImageView fitHeight="80.0" fitWidth="300.0">
+          <Image url="@/imgs/logo_title.png"/>
+        </ImageView>
+        <StackPane>
+          <children>
+            <Label fx:id="userNameLabel" styleClass="username-label" text="User: ">
+              <font>
+                <Font size="20.0"/>
+              </font>
+              <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+              </padding>
+            </Label>
+          </children>
+        </StackPane>
+        <VBox>
+          <fx:define>
+            <ToggleGroup fx:id="navbar"/>
+          </fx:define>
+
+          <ToggleButton fx:id="homeButton" styleClass="navbar-button" text="🏠 HOME"/>
+          <ToggleButton fx:id="booksListButton" styleClass="navbar-button" text="📚 BOOKS" toggleGroup="$navbar"/>
+          <ToggleButton fx:id="userButton" styleClass="navbar-button" text="👤 ACCOUNT" toggleGroup="$navbar"/>
+
+          <ToggleButton fx:id="addBookButton" styleClass="navbar-button" text="📕 ADD BOOK" toggleGroup="$navbar"/>
+
+          <ToggleButton fx:id="usersTableButton" styleClass="navbar-button" text="👥 MANAGE USERS" toggleGroup="$navbar"/>
+          <ToggleButton fx:id="statisticsButton" styleClass="navbar-button" text="📊 STATISTICS" toggleGroup="$navbar"/>
+
+          <StackPane>
+            <children>
+              <ToggleButton fx:id="notificationsButton" styleClass="navbar-button" text="🔔 NOTIFICATIONS" toggleGroup="$navbar">
+              </ToggleButton>
+              <Label fx:id="unreadNotificationsLabel" alignment="CENTER" contentDisplay="CENTER" mouseTransparent="true"
+                     styleClass="circular-background" text="123" StackPane.alignment="TOP_RIGHT">
+                <StackPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                </StackPane.margin>
+              </Label>
+            </children>
+          </StackPane>
+          <ToggleButton fx:id="logoutButton" styleClass="navbar-button" text="🔒 LOGOUT" toggleGroup="$navbar"/>
+
+        </VBox>
+      </children>
+    </VBox>
+  </left>
+  <center/>
+</BorderPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.StatisticsController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <VBox alignment="TOP_CENTER" spacing="5.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <Label text="Category Statistics">
+            <font>
+                <Font size="30.0"/>
+            </font>
+        </Label>
+
+        <TableView fx:id="categoryTable" fixedCellSize="27.0" maxWidth="700.0" prefWidth="500.0" maxHeight="298.0">
+            <columns>
+                <TableColumn fx:id="categoryNameColumn" prefWidth="75.0" text="Author"/>
+                <TableColumn fx:id="categoryBooksAmountColumn" prefWidth="75.0" text="Total Books"/>
+                <TableColumn fx:id="categoryBooksBorrowedColumn" prefWidth="75.0" text="Currently Borrowed"/>
+                <TableColumn fx:id="categoryPopularityColumn" prefWidth="75.0" text="Popularity"/>
+                <TableColumn fx:id="categoryAverageRatingColumn" prefWidth="75.0" text="Average Rating"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </VBox.margin>
+        </TableView>
+
+        <Separator prefWidth="200.0"/>
+        <Label text="Author Statistics">
+            <font>
+                <Font size="30.0"/>
+            </font>
+        </Label>
+
+        <TableView fx:id="authorsTable" fixedCellSize="27.0" maxWidth="700.0" prefWidth="500.0">
+            <columns>
+                <TableColumn fx:id="authorNameColumn" prefWidth="75.0" text="Author"/>
+                <TableColumn fx:id="booksAmountColumn" prefWidth="75.0" text="Total Books"/>
+                <TableColumn fx:id="booksBorrowedColumn" prefWidth="75.0" text="Currently Borrowed"/>
+                <TableColumn fx:id="popularityColumn" prefWidth="75.0" text="Popularity"/>
+                <TableColumn fx:id="averageRatingColumn" prefWidth="75.0" text="Average Rating"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+            </VBox.margin>
+        </TableView>
+    </VBox>
+</AnchorPane>

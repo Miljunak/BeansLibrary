@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="208.0" prefWidth="356.0"
+            style="-fx-border-width: 2; -fx-border-color: black; -fx-border-radius: 10; -fx-background-color: white;"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@../css/styles.css"
+            fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.BookController">
+  <Label fx:id="languageLabel" contentDisplay="TOP" ellipsisString="" text="PL" textAlignment="CENTER"
+         textFill="#333333" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+    <font>
+      <Font size="12.0"/>
+    </font>
+  </Label>
+  <HBox alignment="CENTER" prefHeight="200.0" prefWidth="431.0" spacing="5.0">
+    <children>
+      <ImageView fx:id="bookCover" fitHeight="158.0" fitWidth="120.0" onMouseClicked="#gotoBookDetails"
+                 pickOnBounds="true" preserveRatio="true">
+        <HBox.margin>
+          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </HBox.margin>
+        <cursor>
+          <Cursor fx:constant="HAND"/>
+        </cursor>
+      </ImageView>
+      <VBox alignment="BASELINE_LEFT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="190.0" prefWidth="187.0" spacing="5.0"
+            HBox.hgrow="SOMETIMES">
+        <children>
+          <HBox prefWidth="569.0">
+            <children>
+              <Label fx:id="titleLabel" contentDisplay="TOP" onMouseClicked="#gotoBookDetails"
+                     text="Wiedźmin - Chrzest Ognia" textOverrun="CLIP" wrapText="true" HBox.hgrow="SOMETIMES">
+                <font>
+                  <Font size="20.0"/>
+                </font>
+                <HBox.margin>
+                  <Insets right="50.0"/>
+                </HBox.margin>
+                <cursor>
+                  <Cursor fx:constant="HAND"/>
+                </cursor>
+              </Label>
+            </children>
+          </HBox>
+          <Region prefWidth="245.0" VBox.vgrow="ALWAYS"/>
+          <Label fx:id="authorsLabel" text="Author1, Author1"/>
+          <Label fx:id="categoryLabel" text="Fiction"/>
+          <Label fx:id="pagesCountLabel" text="Liczba stron: 443"/>
+          <Region VBox.vgrow="ALWAYS"/>
+          <HBox alignment="BASELINE_RIGHT">
+            <children>
+              <Label fx:id="availableCopiesLabel" text="Dostępność - 30 sztuk"/>
+              <Region HBox.hgrow="ALWAYS"/>
+              <Button fx:id="borrowButton" contentDisplay="CENTER" mnemonicParsing="false" styleClass="confirm-button"
+                      onMouseClicked="#handleBorrowingButtonClick" prefHeight="25.0" prefWidth="85.0" text="Borrow">
+                <font>
+                  <Font size="12.0"/>
+                </font>
+              </Button>
+            </children>
+          </HBox>
+        </children>
+        <HBox.margin>
+          <Insets/>
+        </HBox.margin>
+        <padding>
+          <Insets bottom="10.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+      </VBox>
+    </children>
+    <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+  </HBox>
+</AnchorPane>

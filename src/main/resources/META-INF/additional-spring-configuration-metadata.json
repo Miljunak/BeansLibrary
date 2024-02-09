@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "load.test.data",
+      "type": "java.lang.String",
+      "description": "Whether to load fake data for testing purposes."
+    }
+  ]
+}

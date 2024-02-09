@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="300.0" maxWidth="200.0" minHeight="230.0" minWidth="180.0" prefHeight="230.0" prefWidth="180.0"
+            style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            stylesheets="@../css/styles.css" xmlns:fx="http://javafx.com/fxml/1">
+
+  <GridPane alignment="CENTER" style="-fx-border-width: 1; -fx-border-color: gray;" AnchorPane.bottomAnchor="0.0"
+            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+    </columnConstraints>
+
+    <rowConstraints>
+      <RowConstraints maxHeight="165.0" minHeight="10.0" prefHeight="165.0" vgrow="SOMETIMES"/>
+      <RowConstraints/>
+    </rowConstraints>
+
+    <children>
+
+      <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="174.0"
+             text="Book Title Book Title Book Title" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER"
+             GridPane.valignment="CENTER">
+        <font>
+          <Font size="16.0"/>
+        </font>
+      </Label>
+
+      <ImageView fx:id="bookCover" fitHeight="164.0" fitWidth="148.0" preserveRatio="true" GridPane.halignment="CENTER"
+                 GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+      </ImageView>
+    </children>
+    <padding>
+      <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+    </padding>
+  </GridPane>
+
+</AnchorPane>

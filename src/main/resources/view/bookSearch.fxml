@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@../css/styles.css"
+            fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.BookSearchController">
+  <TabPane tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+           AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <!-- First Page -->
+    <Tab text="Basic Search">
+      <StackPane style="-fx-border-width: 0;">
+        <children>
+          <VBox alignment="CENTER" StackPane.alignment="TOP_CENTER">
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Book Search" textAlignment="CENTER">
+              <font>
+                <Font size="25.0"/>
+              </font>
+            </Label>
+            <HBox alignment="CENTER" spacing="40.0">
+              <padding>
+                <Insets bottom="20.0" left="40.0" right="40.0" top="20.0"/>
+              </padding>
+              <TextField fx:id="searchTextField" promptText="Enter book name" styleClass="search-field"
+                         style="-fx-font-size: 20"
+                         HBox.hgrow="ALWAYS"/>
+
+              <Button fx:id="searchButton" mnemonicParsing="false" onMouseClicked="#displaySearchResults"
+                      prefWidth="150.0" style="-fx-font-size: 20" text="SEARCH"/>
+            </HBox>
+            <ScrollPane fitToWidth="true" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
+              <VBox alignment="CENTER">
+                <FlowPane fx:id="listOfBooks" alignment="CENTER" hgap="45.0" vgap="45.0">
+                  <!-- Books will be here -->
+                </FlowPane>
+              </VBox>
+            </ScrollPane>
+            <padding>
+              <Insets top="20.0"/>
+            </padding>
+          </VBox>
+        </children>
+      </StackPane>
+    </Tab>
+
+    <!-- Second Page -->
+    <Tab text="Advanced Search">
+      <StackPane>
+        <VBox alignment="CENTER">
+          <Label alignment="CENTER" contentDisplay="CENTER" text="Advanced Book Search" textAlignment="CENTER">
+            <font>
+              <Font size="25.0"/>
+            </font>
+          </Label>
+          <HBox alignment="CENTER" spacing="40.0">
+            <padding>
+              <Insets bottom="20.0" left="40.0" right="40.0" top="20.0"/>
+            </padding>
+            <TextField fx:id="advancedSearchTextField" promptText="Enter book name"
+                       style=" -fx-font-size: 20" styleClass="search-field"
+                       HBox.hgrow="ALWAYS"/>
+            <Button fx:id="advancedSearchButton" mnemonicParsing="false" onMouseClicked="#displayFilteredSearchResults"
+                    prefWidth="150" style="-fx-font-size: 20" text="SEARCH"/>
+          </HBox>
+          <HBox alignment="CENTER" spacing="20.0">
+            <VBox>
+              <Label text="Language"/>
+              <ComboBox fx:id="languageComboBox" prefWidth="200" promptText="Select option"/>
+            </VBox>
+
+            <VBox>
+              <Label text="Category"/>
+              <ComboBox fx:id="bookCategoryComboBox" prefWidth="200" promptText="Select option"/>
+            </VBox>
+
+            <VBox>
+              <Label text="Minimum Average Book Rating"/>
+              <Slider fx:id="sliderInput" majorTickUnit="0.5" max="5" minorTickCount="4" prefWidth="300"
+                      showTickLabels="true" showTickMarks="true"/>
+            </VBox>
+            <padding>
+              <Insets bottom="20.0"/>
+            </padding>
+          </HBox>
+          <TableView fx:id="searchResultsTable" maxWidth="950" style="-fx-margin: 20;" VBox.vgrow="ALWAYS">
+            <columns>
+              <TableColumn fx:id="titleColumn" minWidth="200.0" prefWidth="250.0" text="Title"/>
+              <TableColumn fx:id="authorColumn" minWidth="150.0" prefWidth="200.0" text="Author"/>
+              <TableColumn fx:id="categoryColumn" minWidth="110" text="Category"/>
+              <TableColumn fx:id="languageColumn" minWidth="70" text="Language"/>
+              <TableColumn fx:id="ratingColumn" minWidth="40.0" text="Rating"/>
+              <TableColumn fx:id="pagesColumn" minWidth="50" text="Pages"/>
+              <TableColumn fx:id="availableColumn" minWidth="50.0" text="Available"/>
+            </columns>
+            <columnResizePolicy>
+              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+            <VBox.margin>
+              <Insets bottom="20.0" left="20.0" right="20.0"/>
+            </VBox.margin>
+          </TableView>
+          <padding>
+            <Insets top="20.0"/>
+          </padding>
+        </VBox>
+      </StackPane>
+    </Tab>
+  </TabPane>
+</AnchorPane>

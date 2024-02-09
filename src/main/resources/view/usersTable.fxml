@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@../css/styles.css"
+            fx:controller="pl.edu.agh.to.kolektyw_glazurniczy.gui.controller.UsersTableController">
+  <children>
+    <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+          AnchorPane.topAnchor="0.0">
+      <children>
+        <ToolBar>
+          <items>
+            <Button fx:id="suspendUsersButton" mnemonicParsing="false" onAction="#suspendUserAccounts"
+                    text="Suspend Users">
+              <tooltip>
+                <Tooltip text="Suspended selected users, they will be unable to borrow new books or leave any reviews"/>
+              </tooltip>
+            </Button>
+            <Button fx:id="changePermissionsButton" mnemonicParsing="false" onAction="#changePermissions"
+                    text="Change Permissions">
+              <tooltip>
+                <Tooltip text="Change permission for selected users"/>
+              </tooltip>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#sendNotifications" text="Send Notification">
+              <tooltip>
+                <Tooltip text="Send notification to selected users"/>
+              </tooltip>
+            </Button>
+          </items>
+        </ToolBar>
+        <VBox alignment="TOP_CENTER" spacing="10.0" VBox.vgrow="ALWAYS">
+          <StackPane>
+            <TextField fx:id="filterBox" styleClass="search-field" onAction="#filterUsers"
+                       promptText="Filter by name or email">
+              <StackPane.margin>
+                <Insets right="40.0"/>
+              </StackPane.margin>
+            </TextField>
+            <Button onAction="#filterUsers" text="🔍" StackPane.alignment="CENTER_RIGHT"/>
+          </StackPane>
+          <TableView fx:id="userTable" fixedCellSize="27.0" editable="true" minWidth="400.0"
+                     tableMenuButtonVisible="true" VBox.vgrow="ALWAYS">
+            <columns>
+              <TableColumn fx:id="selectColumn" maxWidth="20.0" minWidth="20.0" prefWidth="20.0" resizable="false"/>
+              <TableColumn fx:id="usernameColumn" prefWidth="50.0" text="Username"/>
+              <TableColumn fx:id="emailColumn" prefWidth="50.0" text="Email"/>
+              <TableColumn fx:id="roleColumn" prefWidth="50.0" text="Role"/>
+              <TableColumn fx:id="registrationDateColumn" prefWidth="50.0" text="Registration date"/>
+              <TableColumn fx:id="lastLoginDateColumn" prefWidth="50.0" text="Last login date"/>
+              <TableColumn fx:id="totalBorrowedBooksColumn" prefWidth="30.0" text="Total borrowed books"/>
+              <TableColumn fx:id="currentlyBorrowedBooksColumn" prefWidth="30.0" text="Currently borrowed books"/>
+              <TableColumn fx:id="lateBooksColumn" prefWidth="30.0" text="Late books"/>
+            </columns>
+            <columnResizePolicy>
+              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+            <VBox.margin>
+              <Insets/>
+            </VBox.margin>
+          </TableView>
+          <StackPane>
+            <children>
+              <Button fx:id="selectAllAction" mnemonicParsing="false" onAction="#selectAllAction" text="Select All"
+                      StackPane.alignment="CENTER_LEFT"/>
+              <Button fx:id="unselectAllAction" mnemonicParsing="false" onAction="#unselectAllAction"
+                      text="Unselect All" StackPane.alignment="CENTER_LEFT">
+                <StackPane.margin>
+                  <Insets left="80.0"/>
+                </StackPane.margin>
+              </Button>
+              <CheckBox fx:id="showSuspendedCheckBox" alignment="CENTER_RIGHT" mnemonicParsing="false"
+                        onAction="#filterUsers" text="Show suspended users" StackPane.alignment="CENTER_RIGHT"/>
+            </children>
+          </StackPane>
+          <HBox spacing="20.0"/>
+          <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+          </padding>
+        </VBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
